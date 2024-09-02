@@ -1,6 +1,9 @@
 .todo{
-    width: 600px;
-    min-height: 732px;
+    /* width: 600px;
+    min-height: 732px; */
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
     border-radius: 20px;
     background-color: aliceblue;
     margin: auto;
@@ -47,4 +50,8 @@
     font-size: 26px;
     font-weight: 600px;
     cursor: pointer;
+}
+.todo-input, .todo-add-btn {
+    width: calc(100% - 120px); /* For input field */
+    max-width: 576px;
 }
